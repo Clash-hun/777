@@ -56,24 +56,10 @@ Right-click on the applet icon:
 
 ## 🌐 API Usage
 
-This applet uses the **Scripture.api.bible API** with the following endpoint:
+This applet uses the **Scripture.api.bible API**
 
 ```bash
-https://api.scripture.api.bible/v1/bibles
-```
-
-🔑 **API Key**: `2c19353f1c22a445616a43b0bacbb218`
-
----
-
-## 💻 Technical Details
-
-```javascript
-// Main components
-const API_KEY = '2c19353f1c22a445616a43b0bacbb218';
-Settings persistence: settings-schema.json
-Update interval: 24 hours
-Icon states: cross.svg (default), process-working (loading)
+https://scripture.api.bible/
 ```
 
 ---
@@ -105,3 +91,9 @@ Icon states: cross.svg (default), process-working (loading)
 ## 🙏 Support
 
 Report issues on **GitHub** or the **Cinnamon Spices** platform. Thank you for contributing to the faith community! ✝️💖
+
+
+
+<div align="center">
+  <img src="777@clash.org/icons/cross.svg" alt="Cross Icon" style="width:15%;">
+</div>
