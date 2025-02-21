@@ -11,11 +11,27 @@ A **Cinnamon desktop applet** that displays random Bible verses in multiple lang
 # Clone or copy files to:
 ~/.local/share/cinnamon/applets/777@clash.org/
 
-# Required files
+# Required files 📄
 applet.js
 metadata.json
 settings-schema.json
 icons/cross.svg
+
+### 1⃣ Use the Gtk.StatusIcon or AppIndicator module to implement the notification icon.
+Also, install the necessary development tools:
+Python, python-gi module (GTK+), and the Cinnamon development package. (For Linux Mint) 🍃
+
+## 💻 Terminal Commands:
+sudo apt install python3 python3-gi gir1.2-gtk-3.0 gir1.2-notify-0.7
+
+### 2⃣ Missing Notification Service! 🚨
+If the appropriate notification service is not installed, the icons will not appear. 
+Check if the `notify-osd` or other notification service is installed on your system. 
+You can do this with the following commands:
+
+## 💻 Terminal Commands:
+sudo apt install libnotify-bin
+sudo apt install libappindicator3-1
 ```
 
 ---
