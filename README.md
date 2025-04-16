@@ -9,7 +9,7 @@ A **Cinnamon desktop applet** that displays random Bible verses in multiple lang
 
 ```bash
 # Clone or copy files to:
-~/.local/share/cinnamon/applets/777@clash.org/
+~/.local/share/cinnamon/applets/777@clash/
 
 # Required files 📄
 applet.js
@@ -83,7 +83,7 @@ https://scripture.api.bible/
 ## 📂 File Structure
 
 ```
-777@clash.org/
+777@clash/
 ├── applet.js
 ├── metadata.json
 ├── settings-schema.json
@@ -111,5 +111,5 @@ Report issues on **GitHub** or the **Cinnamon Spices** platform. Thank you for c
 
 
 <div align="center">
-  <img src="777@clash.org/icons/cross.svg" alt="Cross Icon" style="width:15%;">
+  <img src="777@clash/icons/cross.svg" alt="Cross Icon" style="width:15%;">
 </div>
